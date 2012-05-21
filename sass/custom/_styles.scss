@@ -1,6 +1,6 @@
 article li { em { color: mix($text-color-light, $text-color); }}
 
-@include font-face("Bebas-Neue", font-files("bebasneue-web.woff", woff, "bebasneue-web.ttf", truetype, "bebasneue-web.svg#BebasNeueRegular", svg), $eot: "bebasneue-web.eot" );
+@include font-face("Bebas-Neue", font-files("bebasneue-webfont.woff", woff, "bebasneue-webfont.ttf", truetype, "bebasneue-webfont.svg#BebasNeueRegular", svg), $eot: "bebasneue-webfont.eot" );
 
 body > header h1 {
   font-family: "Bebas-Neue", serif;
